@@ -3,7 +3,7 @@ SELECT * FROM order_details;
 
 
 
---1. Combune the menu_items and order_details tabbles into a single table.
+--1. Combine the menu_items and order_details tabbles into a single table.
 SELECT * FROM order_details AS o LEFT JOIN menu_items AS m 
 ON m.menu_item_id = o.item_id;
 
